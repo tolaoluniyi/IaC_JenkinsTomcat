@@ -24,3 +24,6 @@ sudo apt install maven -y
 # Start Jenkins
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
+echo 'Jenkins has started'
+echo 'jenkins is installed'
+echo 'this is the default password :' $(sudo cat /var/lib/jenkins/secrets/initialAdminPassword)
