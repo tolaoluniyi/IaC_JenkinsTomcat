@@ -4,7 +4,8 @@ pipeline {
         AWS_ACCOUNT_ID="471112852901"
         AWS_DEFAULT_REGION="us-east-1"     
     }
-        
+
+#Define the stages      
     stages {
         stage('Infrastructure Deployment') {
            environment {
